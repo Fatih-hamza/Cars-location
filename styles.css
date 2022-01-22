@@ -9,7 +9,7 @@ img{
 
 body {
     background-color: bisque; /*if the bckgrd img took time to load*/
-    background-image: url("ressources/car2.jfif");
+    background-image: url("car2.jfif");
     background-repeat: no-repeat; /*by default, the image will be duplicated to fill the entire surface*/
     background-size: cover; /*the image covers the entire body*/
     /*height: 100%;*/
