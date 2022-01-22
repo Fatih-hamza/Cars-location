@@ -1,1 +1,83 @@
 /* the styles in css will be here*/ 
+img{
+    height: 160px;
+    width: 200px;  /*specify dimensions of your image*/
+    /*padding-bottom: 20px; a li'l bit higher than the nav*/
+}
+
+
+
+body {
+    background-color: bisque; /*if the bckgrd img took time to load*/
+    background-image: url("ressources/car2.jfif");
+    background-repeat: no-repeat; /*by default, the image will be duplicated to fill the entire surface*/
+    background-size: cover; /*the image covers the entire body*/
+    /*height: 100%;*/
+}
+
+.container {
+    text-align: center;
+    margin-right: 350px;
+    margin-left: 300px;
+} 
+
+.contenu{
+    color:white;
+    width: 70%;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+main{
+    text-align: center;
+    height:460px;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-left: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-shadow:  0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+h1{
+    font-size: 76px;
+    font-weight: bold;
+}
+
+
+nav {
+    margin-bottom: 0px;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 100%; /* of the container width */
+    
+
+}
+
+nav a{
+    padding-left: 40px;  /* this pading should be applied to the content of the nav, not to the nav itself(it will has no effect on it) */
+    padding-right: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenu a{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
